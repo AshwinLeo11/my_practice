@@ -6,8 +6,7 @@ print(z)
 
 # excercise 2
 """
-this is ashwin
-
+hai
 """
 from decimal import Decimal
 s = Decimal('0.1') + Decimal('0.1') + Decimal('0.1') + Decimal('0.3')
