@@ -1,7 +1,13 @@
+"""
+Problem:
+Solution:
+"""
+
+
 import decimal
 from fractions import Fraction
-f = 2-5
-z = Fraction(*f.as_integer_ratio())
+f = 2.5                                      #Convert float->fraction:two args
+z = Fraction(*f.as_integer_ratio())           
 print(z)
 
 # excercise 2
