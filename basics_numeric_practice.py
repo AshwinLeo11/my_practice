@@ -9,7 +9,6 @@ print(z)
 this is ashwin
 
 """
-
 from decimal import Decimal
 s = Decimal('0.1') + Decimal('0.1') + Decimal('0.1') + Decimal('0.3')
 print(s)
