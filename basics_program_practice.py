@@ -33,10 +33,10 @@ print(a/b)
 # BMI excercise
 
 
-# weight = input("Enter your weight: ")
- #height =float('Enter your height: ')
- #BMI = weight/(height^2)
-# print(BMI)
+weight = input("Enter weight in kg: ")
+height =input("Enter height in meter: ")
+BMI = int(weight)/float(height) ** 2
+print(int(BMI))
 
 
 
