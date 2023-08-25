@@ -81,7 +81,96 @@ if number % 2 == 0:
     print('This number is even')
 else:
     print('This number is odd')
-    
+
+
+
+# nested if excercise :
+
+
+a = 52
+if a%2 == 0:
+    print('even')
+    if a>30 :
+        print('Number is greater than 30..great :')
+print('byee')
+
+
+# nested if else excercise :
+
+height = int(input('enter your height in feet ?'))
+if height>=3:
+    print('can ride')
+    age = int(input('What is your age?'))
+    if age<=18:
+        print('pay 250 Rs.')
+    else:
+        print('pay 500 Rs')
+else:
+    print ("can't ride")
+print('byee')
+           
+          
+# nested elif excercise :
+
+
+height = int(input('Enter yoyr height in feet:'))
+if height>=4:
+    print('can ride')
+    age = int(input('enter your age?'))
+    if age<12:
+        print('pay 150 Rs.')
+    elif age<=18:
+        print('pay 250 Rs.')
+    else:
+        print('pay 500 Rs.')
+else:
+    print("can't ride")
+print('bye')
+
+
+
+# nested if excercise :
+
+# problem : how to calculate bmi and its basic categories :
+
+
+weight = float(input('Enter weight in kg:'))
+height = float(input('Enter your height in meter:'))
+bmi = round(weight/height**2)
+if bmi<18.5:
+    print(f'your BMI is {bmi} and you are under weight.')
+elif bmi<25:
+    print(f'your BMI is{ bmi} and you have a normal weight.')
+elif bmi<30:
+    print(f'your BMI is {bmi} and you are overweight.')
+elif bmi<35:
+    print(f'your BMI is {bmi} and you are obese.')
+else:
+    print(f'your BMI is {bmi} and you are clinically obese.')
+
+
+
+
+# excercise     
+
+# problem : how to check whether given a year is leap year or not :
+
+year = int(input('which year you want to check?'))
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year %  400 == 0:
+            print('leap year')
+        else:
+            print('not a leap year')
+    else:
+        print('not a leap year')
+else:
+    print('Not a leap year')
+
+
+
+
+
 
 
 
