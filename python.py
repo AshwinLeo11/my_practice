@@ -118,6 +118,56 @@ list_1= [4,3,4,6,67,76,2]
 len(list_1)
 
 
+# nested list :
+
+
+list_1= [10,34,24,[45,11,90],38]
+print(len(list_1))
+
+
+list_1= [10,34,24,[45,11,90],38]
+print(list_1[3][1])
+
+
+#  slicing
+
+list_1= [10,34,24,[45,11,90],38]
+print(list_1[3][0::2])
+
+list_2 = [ 10,11,34,['Ashwin','Shaji','Hari'],889]
+print(list_2[3][0])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # randomization  :
 
@@ -157,6 +207,23 @@ names_list =names.split(",")
 length = len(names_list)
 random_choice = random.randint(0,length-1)
 print(f"{names_list[random_choice]} will pay the bill")  
+
+
+
+
+# index error excercise :
+names = ['Ashwin','Shaji','hari']
+print(f'Hi,{names[4]}')
+
+
+names = ['Ashwin','Hari','Shaji','Pradeep','Dravid','abi','sarvesh']
+length = len(names)
+print(f'Hi,{names[length-1]}')
+
+
+
+
+
 
 
 
