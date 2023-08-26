@@ -139,36 +139,6 @@ print(list_2[3][0])
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # randomization  :
 
 import random
