@@ -68,9 +68,17 @@ tuple_1 = (11,) * 7
 print(tuple_1)
 
 
+# tuple program excercise (head or tail ):
+
+items = [1,10,7,4,5,9]
+def sum(items):
+    head,*tail= items
+    return head + sum(tail) if tail else head
+print(sum(items))
 
 
-#excercise 1
+
+# Sets :
 
 x = set ('abcde')
 y = set ('xyzhk')
