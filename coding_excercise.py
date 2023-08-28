@@ -73,16 +73,68 @@ else :
  # excercise program :
 
 names = input("Enter everybody's name seperated by comma")
-names_list = names.spilt()
+names_list = names.split()
 print(f"{random.choice(names_list)} will pay the bill")
 
 
 
+# problem : check whether given number is even or odd 
+
+number = int(input("Enter the number:"))
+if number % 2 == 0:
+    print('This number is even')
+else:
+    print('This number is odd')
+
+# problem : how to calculate bmi and its basic categories :
 
 
+weight = float(input('Enter weight in kg:'))
+height = float(input('Enter your height in meter:'))
+bmi = round(weight/height**2)
+if bmi<18.5:
+    print(f'your BMI is {bmi} and you are under weight.')
+elif bmi<25:
+    print(f'your BMI is{ bmi} and you have a normal weight.')
+elif bmi<30:
+    print(f'your BMI is {bmi} and you are overweight.')
+elif bmi<35:
+    print(f'your BMI is {bmi} and you are obese.')
+else:
+    print(f'your BMI is {bmi} and you are clinically obese.')
 
 
+# problem : how to check whether given a year is leap year or not :
 
+year = int(input('which year you want to check?'))
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year %  400 == 0:
+            print('leap year')
+        else:
+            print('not a leap year')
+    else:
+        print('not a leap year')
+else:
+    print('Not a leap year')
+
+
+# program to calculate average height from a list of height :
+
+
+heights = input('Enter all your heights seperated by space:')
+height_list =heights.split()
+count = 0
+for height in height_list :
+    count = count + 1
+print(count)
+for i in range (count):
+    height_list[i] = int(height_list[i])
+total = 0
+for person in height_list :
+    total += person 
+avg = total/count
+print('Average height is :',round(avg))
 
 
 

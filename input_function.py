@@ -1,4 +1,6 @@
 # input function excercise
+
+
 input("what is your name?")
 
 
@@ -61,7 +63,7 @@ print(type(var_2))
 print(type(var_3))
 
 
-name_1 = "Jenny khatri"
+name_1 = "Ashwin"
 name_2 = "cs faculty"
 print(name_1 + name_2)
 print(name_1[6] +name_2[1])
