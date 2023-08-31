@@ -138,6 +138,23 @@ print('Average height is :',round(avg))
 
 
 
+# simple pyramid pattern program :
+
+#def pypart(n):
+ #   for i in range(0,n) :
+  #      for j in range(0,i+1):
+   #         print("*",end="")
+    #    print('\r')
+
+
+# write a program to find product of two numbers :
+
+a = int(input('Enter first number :'))
+b = int(input('Enter second number :'))
+prod = a * b
+print("The product is :",prod)
+
+
 
 
 
