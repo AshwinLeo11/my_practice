@@ -155,30 +155,52 @@ prod = a * b
 print("The product is :",prod)
 
 
+# program to find maximum numbers in given list of numbers :
+
+numbers = ("Enter list of numbers:")
+numbers_list = numbers.split()
+count = 0
+for number in numbers_list :
+    count += 1
+print(f"The length of the list is : {count}")
+for i in range(count):
+    numbers_list[i] = int(numbers_list[i])
+maximum_number = numbers_list[0]
+for number in numbers_list :
+    if number > maximum_number:
+        maximum_number = number
+print(f'The maximum number is : {maximum_number}')
+
+
+#  calculate sum of even numbers from 1 to 100 including 1 & 100
+
+total = 0
+for i in range(2,101,2): # 2 4 6 8 .... 100
+    total += i
+print(total)
+
+
+total = 0
+for i in range (1,101) : # 1 2 3 4 5 .... 100
+    if i % 2 == 0:
+        total += 0
+print(total)
 
 
 
+# Fizzbuzz job interview question  :
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+for numbers in range(1,101) :
+    if numbers % 3 == 0 and numbers % 5 == 0:
+        print('FizzBuzz')
+    elif numbers % 3 == 0:
+        print('fizz')
+    elif numbers %5 == 0 :
+        print('Buzz')
+    else :
+        print('numbers')
 
 
 

@@ -74,47 +74,123 @@ else :
     
 
 
+# for loop & range () function in python  :
+
+a = range(2,5)
+print(a[0])
+
+
+b = range (2,15,3)
+for i in a :
+    print(i)
+
+
+c = range (3,15,-4) # i =2 j = 15  k = -4
+for i in a :
+    print(i)
+
+
+# we have to add numbers from 1 to 100 :
+
+total = 0
+for i in range (0,101):
+    total += i
+print(total)
 
 
 
 
 
 
+total = 0
+for i in range(2,101,2): # 2 4 6 8 .... 100
+    total += i
+print(total)
+
+
+total = 0
+for i in range (1,101) : # 1 2 3 4 5 .... 100
+    if i % 2 == 0:
+        total += i
+print(total)
+
+
+
+# while loop in python :
+
+count = 1
+while count < 5 :
+    print(count)
+    count += 1
+print('out from loop')
+
+
+count = 5
+while count >0 :
+    print(count)
+    count -= 1
+print('out from while loop')
 
 
 
 
+count = 5
+while count >0 : print(count) ;count -= 1
+print('out from while loop')
 
 
 
+count = 7 
+while count < 9 :
+    print(count)
+    count += 1
+else :
+    print('in else block')
+print('out from the loop')
 
 
 
+count = 5
+while count>0 :
+    print(count)
+    count -= 1
+    if count == 3 :
+        break
+else :
+    print('in else block')
+print('out from the loop')
 
 
 
+number = int(input('enter a number (-7 to quit)'))
+while number !=-7 :
+    print(number)
+    number = int(input('enter a number(-7 to quit'))
+else :
+    print('in else block')
+print('out from loop')
 
 
+count = 0 
+while True:
+    print(count)
+    count += 1
+    if count == 5 :
+        break 
+else :
+        print('in else block')
+print('out from loop')
 
 
+# calculte sum of positive integers :
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+total = 0 
+number = int (input('enter a number (0 to quit):'))
+while number !=0 :
+    total = total + number 
+    number = int(input('engter a number(0 to quit)'))
+print(f'total is',{total})
 
 
 
