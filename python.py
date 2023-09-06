@@ -94,9 +94,9 @@ print(numbers)
 
 # count   :
 
-#numbers = [23,34,56,78,98,23,45,43,62]
-#numbers.count()
-#print(numbers)
+numbers = [23,34,56,78,98,23,45,43,62]
+numbers.count(78)
+print(numbers)
 
 
 

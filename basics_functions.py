@@ -174,21 +174,21 @@ else:
  
 height = int(input('what is your height?'))
 bill = 0
-if height>=4 :
+if height>=5 :
     print('can ride')
     age = int(input('Enter your age?'))
-    if age<12:
-        bill = 150
+    if age<15:
+        bill = 300
         print('Ticket price is 150 Rs.')
-    elif age<18:
-        bill = 250
+    elif age<20:
+        bill = 500
         print('Ticket price is 250 Rs.')
     else :
-        bill = 500
+        bill = 700
         print('Ticket price is 500 Rs.')
         want_photo = input('Do  you want to take a photo(y/n)?')
         if want_photo == 'y' or want_photo == 'Y':
-            bill = bill + 50
+            bill = bill + 100
         print(f'Your total bill is{bill}.')
 else:
     print("can't ride")
